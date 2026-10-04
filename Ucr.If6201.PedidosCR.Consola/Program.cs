@@ -12,7 +12,14 @@ services.AddScoped<ICrearPedido, CrearPedidoUseCase>();
 services.AddScoped<IConsultarPedido, ConsultarPedidoUseCase>();
 services.AddScoped<ICancelarPedido, CancelarPedidoUseCase>();
 
-services.AddScoped<IPedidoRepository, PedidoRepositySQL>(); 
+/******************************************************************/
+/* NOTA: ACÁ ES DONDE SE CONFIGURA SI ES MEMORIA O SI ES SQL */
+//services.AddScoped<IPedidoRepository, PedidoRepositySQL>();
+services.AddSingleton()<IPedidoRepository, PedidosRepositoyMemoria>();
+/******************************************************************/
+
+//Se configura y se gestiona la ID para cuando se requieran
+services.AddSingleton(new EmailSettings());
 services.AddScoped<INotificador, EmailAdapter>();
 
 var serviceProvider = services.BuildServiceProvider();

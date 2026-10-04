@@ -20,8 +20,8 @@ builder.Services.AddScoped<ICancelarPedido, CancelarPedidoUseCase>();
 
 /******************************************************************/
 /* NOTA: ACÁ ES DONDE SE CONFIGURA SI ES MEMORIA O SI ES SQL */
-builder.Services.AddScoped<IPedidoRepository, PedidoRepositySQL>();
-//builder.Services.AddSingleton()<IPedidoRepository, PedidosRepositoyMemoria>();
+//builder.Services.AddScoped<IPedidoRepository, PedidoRepositySQL>();
+builder.Services.AddSingleton()<IPedidoRepository, PedidosRepositoyMemoria>();
 /******************************************************************/
 
 //Se configura y se gestiona la ID para cuando se requieran
