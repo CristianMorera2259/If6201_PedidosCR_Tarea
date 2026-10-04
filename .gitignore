@@ -1,0 +1,21 @@
+# .NET / C# Build Output
+/[Bb]in/
+/[Oo]bj/
+bin/
+obj/
+
+# JetBrains Rider
+.idea/
+*.sln.DotSettings.user
+
+# Visual Studio / User Specific Files
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+
+# Archivos del Sistema Operativo
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+.DS_Store

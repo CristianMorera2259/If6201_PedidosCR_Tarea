@@ -1,0 +1,31 @@
+﻿using Microsoft.Extensions.DependencyInjection;
+using Ucr.If6201.PedidosCR.Abstracciones.Ports.input;
+using Ucr.If6201.PedidosCR.Abstracciones.Ports.output;
+using Ucr.If6201.PedidosCR.BW.UseCase;
+using Ucr.If6201.PedidosCR.Consola.App;
+using Ucr.If6201.PedidosCR.DA.Sql;
+using Ucr.If6201.PedidosCR.Email.SG;
+
+// Acá va lo de inyección de dependencias
+var services = new ServiceCollection();
+services.AddScoped<ICrearPedido, CrearPedidoUseCase>();
+services.AddScoped<IConsultarPedido, ConsultarPedidoUseCase>();
+services.AddScoped<ICancelarPedido, CancelarPedidoUseCase>();
+
+services.AddScoped<IPedidoRepository, PedidoRepositySQL>(); 
+services.AddScoped<INotificador, EmailAdapter>();
+
+var serviceProvider = services.BuildServiceProvider();
+
+var crearPedido = serviceProvider.GetRequiredService<ICrearPedido>();
+var consultarPedido = serviceProvider.GetRequiredService<IConsultarPedido>();
+var cancelarPedido = serviceProvider.GetRequiredService<ICancelarPedido>();
+
+
+
+PedidosServices serviciosConsola = new PedidosServices(crearPedido, consultarPedido,cancelarPedido);
+
+AppMenu consola = new AppMenu(serviciosConsola);
+consola.MenuPrincipal();
+
+Console.WriteLine("Fin del programa.");

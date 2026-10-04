@@ -1,0 +1,14 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ucr.If6201.PedidosCR.Abstracciones\Ucr.If6201.PedidosCR.Abstracciones.csproj" />
+    <ProjectReference Include="..\Ucr.If6201.PedidosCR.Dominio\Ucr.If6201.PedidosCR.Dominio.csproj" />
+  </ItemGroup>
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <ImplicitUsings>enable</ImplicitUsings>
+    <Nullable>enable</Nullable>
+  </PropertyGroup>
+
+</Project>

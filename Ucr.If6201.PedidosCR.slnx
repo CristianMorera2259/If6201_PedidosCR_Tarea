@@ -1,0 +1,10 @@
+<Solution>
+  <Project Path="Ucr.If6201.PedidosCR.Abstracciones/Ucr.If6201.PedidosCR.Abstracciones.csproj" />
+  <Project Path="Ucr.If6201.PedidosCR.Api/Ucr.If6201.PedidosCR.Api.csproj" />
+  <Project Path="Ucr.If6201.PedidosCR.BW/Ucr.If6201.PedidosCR.BW.csproj" />
+  <Project Path="Ucr.If6201.PedidosCR.Consola/Ucr.If6201.PedidosCR.Consola.csproj" />
+  <Project Path="Ucr.If6201.PedidosCR.DA.Memoria/Ucr.If6201.PedidosCR.DA.Memoria.csproj" />
+  <Project Path="Ucr.If6201.PedidosCR.DA.Sql/Ucr.If6201.PedidosCR.DA.Sql.csproj" />
+  <Project Path="Ucr.If6201.PedidosCR.Dominio/Ucr.If6201.PedidosCR.Dominio.csproj" />
+  <Project Path="Ucr.If6201.PedidosCR.Email.SG/Ucr.If6201.PedidosCR.Email.SG.csproj" />
+</Solution>

@@ -1,0 +1,26 @@
+﻿using Ucr.If6201.PedidosCR.Abstracciones.dtos;
+using Ucr.If6201.PedidosCR.Abstracciones.Ports.input;
+using Ucr.If6201.PedidosCR.Abstracciones.Ports.output;
+using Ucr.If6201.PedidosCR.Dominio.Entities;
+
+namespace Ucr.If6201.PedidosCR.BW.UseCase;
+
+public class ConsultarPedidoUseCase: IConsultarPedido
+{
+    private readonly IPedidoRepository _repository;
+    
+    public ConsultarPedidoUseCase(
+        IPedidoRepository repository)
+    {
+        _repository = repository;
+    }
+
+    public PedidoResponse Ejecutar(int pedidoId)
+    {
+        // Reglas de negocio
+        // Consultar pedido
+        // Retornar resultado
+        // Tomar en cuenta cuando el id retorna null y tal
+        return new PedidoResponse();
+    }
+}

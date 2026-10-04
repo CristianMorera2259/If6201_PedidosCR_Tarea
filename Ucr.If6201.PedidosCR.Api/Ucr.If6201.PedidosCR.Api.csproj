@@ -1,0 +1,20 @@
+<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net10.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <PackageReference Include="Microsoft.AspNetCore.OpenApi" Version="10.0.12" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Ucr.If6201.PedidosCR.Abstracciones\Ucr.If6201.PedidosCR.Abstracciones.csproj" />
+    <ProjectReference Include="..\Ucr.If6201.PedidosCR.BW\Ucr.If6201.PedidosCR.BW.csproj" />
+    <ProjectReference Include="..\Ucr.If6201.PedidosCR.DA.Sql\Ucr.If6201.PedidosCR.DA.Sql.csproj" />
+    <ProjectReference Include="..\Ucr.If6201.PedidosCR.Email.SG\Ucr.If6201.PedidosCR.Email.SG.csproj" />
+  </ItemGroup>
+
+</Project>

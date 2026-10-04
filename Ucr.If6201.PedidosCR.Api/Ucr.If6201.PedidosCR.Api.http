@@ -1,0 +1,6 @@
+@Ucr.If6201.PedidosCR.Api_HostAddress = http://localhost:5241
+
+GET {{Ucr.If6201.PedidosCR.Api_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
