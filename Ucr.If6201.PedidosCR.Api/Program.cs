@@ -24,6 +24,8 @@ builder.Services.AddScoped<IPedidoRepository, PedidoRepositySQL>();
 //builder.Services.AddSingleton()<IPedidoRepository, PedidosRepositoyMemoria>();
 /******************************************************************/
 
+//Se configura y se gestiona la ID para cuando se requieran
+builder.Services.AddSingleton(new EmailSettings());
 builder.Services.AddScoped<INotificador, EmailAdapter>();
 
 var app = builder.Build();
