@@ -1,6 +1,7 @@
 ﻿using Ucr.If6201.PedidosCR.Abstracciones.dtos;
 using Ucr.If6201.PedidosCR.Abstracciones.Ports.input;
 using Ucr.If6201.PedidosCR.Abstracciones.Ports.output;
+using Ucr.If6201.PedidosCR.Dominio.Exceptions;
 
 namespace Ucr.If6201.PedidosCR.BW.UseCase;
 
@@ -21,9 +22,16 @@ public class CancelarPedidoUseCase: ICancelarPedido
 
     public void Ejecutar(int pedidoId)
     {
-        // Reglas de negocio
-        // buscar y cancelar el pedido (cambiar el estado pues)
-        // notificar
-        // volver
+        // Reglas de negocio - Buscar y cancelar el pedido (cambiar el estado)- Notificar - volver
+
+        var pedido = _repository.ObtenerPorId(pedidoId);
+        if (pedido == null)
+            throw new ReglaNegocioException($"No se encontró el pedido con ID {pedidoId}.");
+
+        pedido.Cancelar();
+        _repository.Actualizar(pedido);
+
+        _notificador.Enviar(pedido.ClienteEmail, "Cancelación de Pedido", $"Su pedido #{pedido.Id} ha sido cancelado exitosamente.");
+
     }
 }

@@ -2,6 +2,7 @@ using Ucr.If6201.PedidosCR.Abstracciones.Ports.input;
 using Ucr.If6201.PedidosCR.Abstracciones.Ports.output;
 using Ucr.If6201.PedidosCR.BW.UseCase;
 using Ucr.If6201.PedidosCR.DA.Sql;
+using Ucr.If6201.PedidosCR.DA.Memoria;
 using Ucr.If6201.PedidosCR.Email.SG;
 
 var builder = WebApplication.CreateBuilder(args);
@@ -21,7 +22,8 @@ builder.Services.AddScoped<ICancelarPedido, CancelarPedidoUseCase>();
 /******************************************************************/
 /* NOTA: ACÁ ES DONDE SE CONFIGURA SI ES MEMORIA O SI ES SQL */
 //builder.Services.AddScoped<IPedidoRepository, PedidoRepositySQL>();
-builder.Services.AddSingleton()<IPedidoRepository, PedidosRepositoyMemoria>();
+builder.Services.AddSingleton<IPedidoRepository, PedidoRepositoryMemoria>();
+// (o services.AddSingleton... dependiendo de la variable que uses ahí)
 /******************************************************************/
 
 //Se configura y se gestiona la ID para cuando se requieran

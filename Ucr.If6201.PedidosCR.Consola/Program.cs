@@ -4,7 +4,9 @@ using Ucr.If6201.PedidosCR.Abstracciones.Ports.output;
 using Ucr.If6201.PedidosCR.BW.UseCase;
 using Ucr.If6201.PedidosCR.Consola.App;
 using Ucr.If6201.PedidosCR.DA.Sql;
+using Ucr.If6201.PedidosCR.DA.Memoria;
 using Ucr.If6201.PedidosCR.Email.SG;
+
 
 // Acá va lo de inyección de dependencias
 var services = new ServiceCollection();
@@ -15,7 +17,7 @@ services.AddScoped<ICancelarPedido, CancelarPedidoUseCase>();
 /******************************************************************/
 /* NOTA: ACÁ ES DONDE SE CONFIGURA SI ES MEMORIA O SI ES SQL */
 //services.AddScoped<IPedidoRepository, PedidoRepositySQL>();
-services.AddSingleton()<IPedidoRepository, PedidosRepositoyMemoria>();
+services.AddSingleton<IPedidoRepository, PedidoRepositoryMemoria>();
 /******************************************************************/
 
 //Se configura y se gestiona la ID para cuando se requieran

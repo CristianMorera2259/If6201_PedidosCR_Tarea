@@ -17,10 +17,12 @@ public class ConsultarPedidoUseCase: IConsultarPedido
 
     public PedidoResponse Ejecutar(int pedidoId)
     {
-        // Reglas de negocio
-        // Consultar pedido
-        // Retornar resultado
-        // Tomar en cuenta cuando el id retorna null y tal
-        return new PedidoResponse();
+        // Reglas de negocio - Consultar pedido - Retornar resultado - Tomar en cuenta cuando el id retorna null y tal
+        
+        var pedido = _repository.ObtenerPorId(pedidoId);
+        if (pedido == null) return null;
+
+        return new PedidoResponse { Id = pedido.Id, ClienteNombre = pedido.ClienteNombre, ClienteEmail = pedido.ClienteEmail, Estado = pedido.Estado.ToString(), Total = (double)pedido.Total , Fecha = pedido.Fecha };
     }
 }
+
