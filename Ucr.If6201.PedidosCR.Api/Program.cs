@@ -21,7 +21,9 @@ builder.Services.AddScoped<ICancelarPedido, CancelarPedidoUseCase>();
 
 /******************************************************************/
 /* NOTA: ACÁ ES DONDE SE CONFIGURA SI ES MEMORIA O SI ES SQL */
-//builder.Services.AddScoped<IPedidoRepository, PedidoRepositySQL>();
+//var cs = builder.Configuration.GetConnectionString("PedidosCR")!;
+//builder.Services.AddScoped<IPedidoRepository>(sp => new PedidoRepositySQL(cs));
+
 builder.Services.AddSingleton<IPedidoRepository, PedidoRepositoryMemoria>();
 // (o services.AddSingleton... dependiendo de la variable que uses ahí)
 /******************************************************************/

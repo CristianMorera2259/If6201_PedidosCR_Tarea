@@ -3,20 +3,26 @@ using Ucr.If6201.PedidosCR.Dominio.Entities;
 
 namespace Ucr.If6201.PedidosCR.DA.Memoria;
 
-public class PedidoRepositoryMemoria: IPedidoRepository
+public class PedidoRepositoryMemoria : IPedidoRepository
 {
+    // esto conceptualmente es para ir guardando los pedidos con un id, es llave -> valor y uno busca por id los pedidos
+    private readonly Dictionary<int, Pedido> _pedidos = new();
+
+    private int _idIncremental = 1;
+
     public void Guardar(Pedido pedido)
     {
-        throw new NotImplementedException();
+        pedido.Id = _idIncremental;
+        _idIncremental++;
+        _pedidos[pedido.Id] = pedido; //se guarda el pedido en el diccionario de pedidos, asignandole el id incremental
     }
-
     public Pedido? ObtenerPorId(int id)
     {
-        throw new NotImplementedException();
+        return _pedidos.GetValueOrDefault(id); //devuelve ese pedido del diccionario, si no existe lanza excepción
     }
 
     public void Actualizar(Pedido pedido)
     {
-        throw new NotImplementedException();
+        _pedidos[pedido.Id] = pedido;
     }
 }

@@ -5,6 +5,10 @@
     <ProjectReference Include="..\Ucr.If6201.PedidosCR.Dominio\Ucr.If6201.PedidosCR.Dominio.csproj" />
   </ItemGroup>
 
+  <ItemGroup>
+    <PackageReference Include="Microsoft.Data.SqlClient" Version="7.1.1" />
+  </ItemGroup>
+
   <PropertyGroup>
     <TargetFramework>net10.0</TargetFramework>
     <ImplicitUsings>enable</ImplicitUsings>

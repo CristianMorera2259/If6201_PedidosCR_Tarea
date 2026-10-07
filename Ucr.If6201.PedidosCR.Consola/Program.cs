@@ -16,7 +16,8 @@ services.AddScoped<ICancelarPedido, CancelarPedidoUseCase>();
 
 /******************************************************************/
 /* NOTA: ACÁ ES DONDE SE CONFIGURA SI ES MEMORIA O SI ES SQL */
-//services.AddScoped<IPedidoRepository, PedidoRepositySQL>();
+//var cs = @"Server=localhost\SQLEXPRESS;Database=PedidosCR;Trusted_Connection=True;TrustServerCertificate=True;";
+//services.AddScoped<IPedidoRepository>(sp => new PedidoRepositySQL(cs));
 services.AddSingleton<IPedidoRepository, PedidoRepositoryMemoria>();
 /******************************************************************/
 
@@ -32,7 +33,7 @@ var cancelarPedido = serviceProvider.GetRequiredService<ICancelarPedido>();
 
 
 
-PedidosServices serviciosConsola = new PedidosServices(crearPedido, consultarPedido,cancelarPedido);
+PedidosServices serviciosConsola = new PedidosServices(crearPedido, consultarPedido, cancelarPedido);
 
 AppMenu consola = new AppMenu(serviciosConsola);
 consola.MenuPrincipal();
