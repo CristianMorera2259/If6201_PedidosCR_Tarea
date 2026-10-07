@@ -22,20 +22,21 @@ services.AddSingleton<IPedidoRepository, PedidoRepositoryMemoria>();
 /******************************************************************/
 
 //Se configura y se gestiona la ID para cuando se requieran
+
 services.AddSingleton(new EmailSettings());
 services.AddScoped<INotificador, EmailAdapter>();
 
-var serviceProvider = services.BuildServiceProvider();
+// Estos se crean nuevos cada que se piden, diay se piden solo una vez :v
+services.AddTransient<PedidosServices>();
+services.AddTransient<AppMenu>(); // de acá viene la consola
 
-var crearPedido = serviceProvider.GetRequiredService<ICrearPedido>();
-var consultarPedido = serviceProvider.GetRequiredService<IConsultarPedido>();
-var cancelarPedido = serviceProvider.GetRequiredService<ICancelarPedido>();
+using var serviceProvider = services.BuildServiceProvider();
+using var scope = serviceProvider.CreateScope();
 
+// Se obtiene la consola
+// Nota: lo hice así para evitar hacer un new en bruto de esto
 
-
-PedidosServices serviciosConsola = new PedidosServices(crearPedido, consultarPedido, cancelarPedido);
-
-AppMenu consola = new AppMenu(serviciosConsola);
+var consola = scope.ServiceProvider.GetRequiredService<AppMenu>();
 consola.MenuPrincipal();
 
 Console.WriteLine("Fin del programa.");

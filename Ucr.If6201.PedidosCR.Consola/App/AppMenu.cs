@@ -250,4 +250,30 @@ public class AppMenu
             Console.WriteLine($"El número '{numero}' no está entre las opciones permitidas. [{min}..{max}]");
         }
     }
+
+    private string pedidoResponseToString(PedidoResponse pedidoResponse)
+    {
+        return $"""
+                Id Pedido: {pedidoResponse.Id}
+                Id Cliente: {pedidoResponse.ClienteId}
+                Nombre Cliente: {pedidoResponse.ClienteNombre}
+                Email Cliente: {pedidoResponse.ClienteEmail}
+                Fecha: {pedidoResponse.Fecha}
+                Estado: {pedidoResponse.Estado}
+                Total: {pedidoResponse.Total}
+                --- Detalles ---
+                {pedidoDetallesToString(pedidoResponse.detalles)}
+                """;
+    }
+
+    private string pedidoDetallesToString(List<DetallePedidoResponse> pedidoResponseDetalles)
+    {
+        string finalString = "";
+        foreach (var detalle in pedidoResponseDetalles)
+        {
+            finalString += detalle.ToString();
+        }
+        
+        return finalString;
+    }
 }

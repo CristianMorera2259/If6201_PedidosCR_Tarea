@@ -27,7 +27,7 @@ public class ConsultarPedidoUseCase: IConsultarPedido
             ClienteId = pedido.ClienteId,
             ClienteNombre = pedido.ClienteNombre,
             ClienteEmail = pedido.ClienteEmail,
-            Estado = pedido.Estado.ToString(),
+            Estado = pedido.Estado,
             Total = (double)pedido.Total,
             Fecha = pedido.Fecha,
             detalles = pedido.Detalles.Select(detallesReal => new DetallePedidoResponse
