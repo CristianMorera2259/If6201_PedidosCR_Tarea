@@ -22,7 +22,7 @@ public class Pedido
         if (Detalles == null || !Detalles.Any())
             throw new ReglaNegocioException("El pedido debe tener al menos un producto.");
 
-        if (Detalles.Any(d => d.Cantidad <= 0 || d.Precio <= 0))
+        if (Detalles.Any(d => d.Cantidad <= 0 || d.Precio < 0))
             throw new ReglaNegocioException("Las cantidades y precios deben ser mayores que cero.");
 
         Total = Detalles.Sum(d => d.Subtotal);

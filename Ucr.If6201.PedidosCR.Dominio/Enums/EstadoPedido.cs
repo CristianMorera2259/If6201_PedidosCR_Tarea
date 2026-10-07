@@ -3,6 +3,5 @@
 public enum EstadoPedido
 {
     Pendiente,
-    Completo,
     Cancelado
 }

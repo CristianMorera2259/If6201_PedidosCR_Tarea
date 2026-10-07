@@ -29,13 +29,13 @@ public class CrearPedidoUseCase : ICrearPedido
             ClienteId = request.ClienteId,
             ClienteNombre = request.ClienteNombre,
             ClienteEmail = request.ClienteEmail,
-            Detalles = request.Detalles?.Select(d => new DetallePedido
+            Detalles = request.Detalles.Select(d => new DetallePedido
             {
                 ProductoId = d.ProductoId,
                 Producto = d.Producto,
                 Cantidad = d.Cantidad,
                 Precio = d.Precio
-            }).ToList() ?? new List<DetallePedido>()
+            }).ToList()
         };
 
         pedido.ValidarYCalcularTotal();
@@ -43,6 +43,20 @@ public class CrearPedidoUseCase : ICrearPedido
 
         _notificador.Enviar(pedido.ClienteEmail, "Confirmación de Pedido", $"Su pedido #{pedido.Id} ha sido creado por un total de {pedido.Total:C}.");
 
-        return new PedidoResponse { Id = pedido.Id, ClienteNombre = pedido.ClienteNombre, ClienteEmail = pedido.ClienteEmail, Estado = pedido.Estado.ToString(), Total = (double)pedido.Total, Fecha = pedido.Fecha };
+        return new PedidoResponse {
+            Id = pedido.Id,
+            ClienteId = pedido.ClienteId,
+            ClienteNombre = pedido.ClienteNombre,
+            ClienteEmail = pedido.ClienteEmail,
+            Estado = pedido.Estado.ToString(),
+            Total = (double)pedido.Total,
+            Fecha = pedido.Fecha,
+            detalles = pedido.Detalles.Select(detallesReal => new DetallePedidoResponse
+            {
+                ProductoId = detallesReal.ProductoId,
+                Producto = detallesReal.Producto,
+                Cantidad = detallesReal.Cantidad,
+                Precio = detallesReal.Precio
+            }).ToList()};
     }
 }

@@ -6,17 +6,5 @@ public class DetallePedidoRequest
     public string Producto { get; set; } = string.Empty;
     public int Cantidad { get; set; } = 0;
     public decimal Precio { get; set; } = 0;
-
-    public override string ToString()
-    {
-        return $"""
-               Id Producto: {ProductoId}
-               Producto: {Producto}
-               Cantidad: {Cantidad}
-               Precio: {Precio}
-               
-               """;
-    }
-
-
+    
 }
