@@ -89,7 +89,9 @@ public class AppMenu
         PedidoResponse? response = _servicios.ConsultarPedido(pedidoId);
         if (response != null)
         {
-            Console.WriteLine(response.ToString());
+            Console.WriteLine(
+                pedidoResponseToString(response)
+                );
             return;
         }
         Console.WriteLine($"No se encontró un pedido con el id {pedidoId}");
@@ -105,7 +107,9 @@ public class AppMenu
         if (response != null)
         {
             Console.WriteLine("-- Pedido Encontrado --");
-            Console.WriteLine(response.ToString());
+            Console.WriteLine(
+                pedidoResponseToString(response)
+                );
             Console.WriteLine("--  Fin  Encontrado  --");
             
             return;
@@ -149,10 +153,12 @@ public class AppMenu
                     request.Detalles.Add(obtenerDetallePedido());
                     break;
                 case 2:
-                    var respuesta = _servicios.CrearPedido(request);
-                    if (respuesta != null)
+                    var response = _servicios.CrearPedido(request);
+                    if (response != null)
                     {
-                        Console.WriteLine(respuesta.ToString());
+                        Console.WriteLine(
+                            pedidoResponseToString(response)
+                            );
                     }
                     return;
             }

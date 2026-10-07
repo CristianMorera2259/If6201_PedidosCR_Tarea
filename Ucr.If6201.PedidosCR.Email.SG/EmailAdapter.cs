@@ -14,18 +14,26 @@ public class EmailAdapter: INotificador
 
     public void Enviar(string destinatario, string asunto, string mensaje)
     {
-        //Se crea el formato que tiene que llevar el correo y se le adjunta al que lo recibe
-        using var mail = new MailMessage{
-            From = new MailAddress(_settings.Sender),
-            Subject = asunto,
-            Body = mensaje
-        };
-        mail.To.Add(destinatario);
+        try
+        {
+            //Se crea el formato que tiene que llevar el correo y se le adjunta al que lo recibe
+            using var mail = new MailMessage{
+                From = new MailAddress(_settings.Sender),
+                Subject = asunto,
+                Body = mensaje
+            };
+            mail.To.Add(destinatario);
 
-        //se conecta al servidor y puerto definido en EmailSettings y se va sin cifrado
-        using var smtp = new SmtpClient(_settings.Server, _settings.Port){
-            EnableSsl = false
-        };
-        smtp.Send(mail);
+            //se conecta al servidor y puerto definido en EmailSettings y se va sin cifrado
+            using var smtp = new SmtpClient(_settings.Server, _settings.Port){
+                EnableSsl = false
+            };
+            smtp.Send(mail);
+        }
+        catch (Exception e)
+        {
+            Console.WriteLine("[Error] Algo salió mal al enviar el correo -> "  + e.Message);
+        }
+
     }
 }
