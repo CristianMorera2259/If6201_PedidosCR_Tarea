@@ -9,7 +9,7 @@ public class PedidoResponse
     public string ClienteNombre { get; set; } = string.Empty;
     public string ClienteEmail { get; set; } = string.Empty;
     public DateTime Fecha { get; set; }
-    public EstadoPedido Estado { get; set; } = EstadoPedido.Pendiente;
+    public string Estado { get; set; } = string.Empty;
     public double Total { get; set; }
     public List<DetallePedidoResponse> detalles { get; set; } = new List<DetallePedidoResponse>();
     

@@ -48,7 +48,7 @@ public class CrearPedidoUseCase : ICrearPedido
             ClienteId = pedido.ClienteId,
             ClienteNombre = pedido.ClienteNombre,
             ClienteEmail = pedido.ClienteEmail,
-            Estado = pedido.Estado,
+            Estado = pedido.Estado.ToString(),
             Total = (double)pedido.Total,
             Fecha = pedido.Fecha,
             detalles = pedido.Detalles.Select(detallesReal => new DetallePedidoResponse
