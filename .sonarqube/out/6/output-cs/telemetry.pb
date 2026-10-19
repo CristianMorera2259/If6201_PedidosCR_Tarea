@@ -1,0 +1,1 @@
+ˆR{C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Consola\Ucr.If6201.PedidosCR.Consola.csprojòCSharp14

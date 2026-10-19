@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ProjectInfo xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns="http://www.sonarsource.com/msbuild/integration/2015/1">
+  <ProjectName>Ucr.If6201.PedidosCR.Email.SG</ProjectName>
+  <ProjectLanguage>C#</ProjectLanguage>
+  <ProjectType>Product</ProjectType>
+  <ProjectGuid>ab2e4228-89fc-0ab6-d488-753e8dd3958b</ProjectGuid>
+  <FullPath>C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Email.SG\Ucr.If6201.PedidosCR.Email.SG.csproj</FullPath>
+  <IsExcluded>false</IsExcluded>
+  <AnalysisResultFiles>
+    <AnalysisResultFile Id="FilesToAnalyze" Location="C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\.sonarqube\conf\2\FilesToAnalyze.txt" />
+  </AnalysisResultFiles>
+  <AnalysisSettings>
+    <Property Name="sonar.cs.roslyn.reportFilePaths">C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\.sonarqube\out\2\Issues.json</Property>
+    <Property Name="sonar.cs.analyzer.projectOutPaths">C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\.sonarqube\out\2</Property>
+    <Property Name="sonar.cs.scanner.telemetry">C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\.sonarqube\out\2\Telemetry.json</Property>
+  </AnalysisSettings>
+  <Configuration>Debug</Configuration>
+  <Platform>AnyCPU</Platform>
+  <TargetFramework>net10.0</TargetFramework>
+</ProjectInfo>

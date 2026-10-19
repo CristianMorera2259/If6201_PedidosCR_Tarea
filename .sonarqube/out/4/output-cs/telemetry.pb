@@ -1,0 +1,1 @@
+†RyC:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.DA.Sql\Ucr.If6201.PedidosCR.DA.Sql.csprojòCSharp14

@@ -1,0 +1,2 @@
+﻿C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Email.SG\EmailAdapter.cs
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Email.SG\EmailSettings.cs

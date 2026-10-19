@@ -1,0 +1,3 @@
+﻿C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.BW\UseCase\CancelarPedidoUseCase.cs
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.BW\UseCase\ConsultarPedidoUseCase.cs
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.BW\UseCase\CrearPedidoUseCase.cs

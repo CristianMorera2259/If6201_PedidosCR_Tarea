@@ -1,0 +1,376 @@
+{
+  "scannerProperties": [
+    {
+      "key": "sonar.scanner.app",
+      "value": "ScannerMSBuild"
+    },
+    {
+      "key": "sonar.scanner.appVersion",
+      "value": "12.0"
+    },
+    {
+      "key": "sonar.scanner.bootstrapStartTime",
+      "value": "1792452926000"
+    },
+    {
+      "key": "sonar.projectKey",
+      "value": "WebApiNet10-Laboratorio"
+    },
+    {
+      "key": "sonar.projectName",
+      "value": "Web API .NET 10 - Laboratorio"
+    },
+    {
+      "key": "sonar.working.directory",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\.sonar"
+    },
+    {
+      "key": "sonar.projectBaseDir",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea"
+    },
+    {
+      "key": "sonar.pullrequest.cache.basepath",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea"
+    },
+    {
+      "key": "sonar.sources",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.vs\\Ucr.If6201.PedidosCR.slnx\\v18\\DocumentLayout.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\escanear.ps1"
+    },
+    {
+      "key": "sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "sonar.modules",
+      "value": "82FD79FA-FF67-8630-0A2A-B3E57C460466,E27878DF-1711-F8D1-03DB-76E9EE3AE1AE,AB2E4228-89FC-0AB6-D488-753E8DD3958B,3C030A9A-D1C1-CB18-4ACE-83DEEF191C75,690408A0-C192-2EC8-D4C6-11D7ED21F51F,E2F25DF1-9884-5A93-4CDD-1538A7404F2C,94D2DC85-F0F7-CF3D-E95A-94A056FEC3E3,C028614D-66E4-F897-8C6C-911A3F0E5384"
+    },
+    {
+      "key": "82FD79FA-FF67-8630-0A2A-B3E57C460466.sonar.projectKey",
+      "value": "WebApiNet10-Laboratorio:82FD79FA-FF67-8630-0A2A-B3E57C460466"
+    },
+    {
+      "key": "82FD79FA-FF67-8630-0A2A-B3E57C460466.sonar.projectName",
+      "value": "Ucr.If6201.PedidosCR.Dominio"
+    },
+    {
+      "key": "82FD79FA-FF67-8630-0A2A-B3E57C460466.sonar.projectBaseDir",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Dominio"
+    },
+    {
+      "key": "82FD79FA-FF67-8630-0A2A-B3E57C460466.sonar.working.directory",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\.sonar\\mod0"
+    },
+    {
+      "key": "82FD79FA-FF67-8630-0A2A-B3E57C460466.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "82FD79FA-FF67-8630-0A2A-B3E57C460466.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "82FD79FA-FF67-8630-0A2A-B3E57C460466.sonar.sources",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Dominio\\Entities\\DetallePedido.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Dominio\\Entities\\Pedido.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Dominio\\Enums\\EstadoPedido.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Dominio\\Exceptions\\ReglaNegocioException.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Dominio\\obj\\project.assets.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Dominio\\obj\\Ucr.If6201.PedidosCR.Dominio.csproj.nuget.dgspec.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Dominio\\bin\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Dominio.deps.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Dominio\\obj\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Dominio.sourcelink.json"
+    },
+    {
+      "key": "82FD79FA-FF67-8630-0A2A-B3E57C460466.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\0"
+    },
+    {
+      "key": "82FD79FA-FF67-8630-0A2A-B3E57C460466.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\0\\Issues.json"
+    },
+    {
+      "key": "82FD79FA-FF67-8630-0A2A-B3E57C460466.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\0\\Telemetry.json"
+    },
+    {
+      "key": "E27878DF-1711-F8D1-03DB-76E9EE3AE1AE.sonar.projectKey",
+      "value": "WebApiNet10-Laboratorio:E27878DF-1711-F8D1-03DB-76E9EE3AE1AE"
+    },
+    {
+      "key": "E27878DF-1711-F8D1-03DB-76E9EE3AE1AE.sonar.projectName",
+      "value": "Ucr.If6201.PedidosCR.Abstracciones"
+    },
+    {
+      "key": "E27878DF-1711-F8D1-03DB-76E9EE3AE1AE.sonar.projectBaseDir",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Abstracciones"
+    },
+    {
+      "key": "E27878DF-1711-F8D1-03DB-76E9EE3AE1AE.sonar.working.directory",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\.sonar\\mod1"
+    },
+    {
+      "key": "E27878DF-1711-F8D1-03DB-76E9EE3AE1AE.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "E27878DF-1711-F8D1-03DB-76E9EE3AE1AE.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "E27878DF-1711-F8D1-03DB-76E9EE3AE1AE.sonar.sources",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Abstracciones\\obj\\project.assets.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Abstracciones\\obj\\Ucr.If6201.PedidosCR.Abstracciones.csproj.nuget.dgspec.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Abstracciones\\bin\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Abstracciones.deps.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Abstracciones\\obj\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Abstracciones.sourcelink.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Abstracciones\\dtos\\CrearPedidoRequest.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Abstracciones\\dtos\\DetallePedidoRequest.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Abstracciones\\dtos\\DetallePedidoResponse.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Abstracciones\\dtos\\PedidoResponse.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Abstracciones\\Ports\\input\\ICancelarPedido.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Abstracciones\\Ports\\input\\IConsultarPedido.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Abstracciones\\Ports\\input\\ICrearPedido.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Abstracciones\\Ports\\output\\INotificador.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Abstracciones\\Ports\\output\\IPedidoRepository.cs"
+    },
+    {
+      "key": "E27878DF-1711-F8D1-03DB-76E9EE3AE1AE.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\1"
+    },
+    {
+      "key": "E27878DF-1711-F8D1-03DB-76E9EE3AE1AE.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\1\\Issues.json"
+    },
+    {
+      "key": "E27878DF-1711-F8D1-03DB-76E9EE3AE1AE.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\1\\Telemetry.json"
+    },
+    {
+      "key": "AB2E4228-89FC-0AB6-D488-753E8DD3958B.sonar.projectKey",
+      "value": "WebApiNet10-Laboratorio:AB2E4228-89FC-0AB6-D488-753E8DD3958B"
+    },
+    {
+      "key": "AB2E4228-89FC-0AB6-D488-753E8DD3958B.sonar.projectName",
+      "value": "Ucr.If6201.PedidosCR.Email.SG"
+    },
+    {
+      "key": "AB2E4228-89FC-0AB6-D488-753E8DD3958B.sonar.projectBaseDir",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Email.SG"
+    },
+    {
+      "key": "AB2E4228-89FC-0AB6-D488-753E8DD3958B.sonar.working.directory",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\.sonar\\mod2"
+    },
+    {
+      "key": "AB2E4228-89FC-0AB6-D488-753E8DD3958B.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "AB2E4228-89FC-0AB6-D488-753E8DD3958B.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "AB2E4228-89FC-0AB6-D488-753E8DD3958B.sonar.sources",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Email.SG\\obj\\project.assets.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Email.SG\\obj\\Ucr.If6201.PedidosCR.Email.SG.csproj.nuget.dgspec.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Email.SG\\bin\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Email.SG.deps.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Email.SG\\obj\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Email.SG.sourcelink.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Email.SG\\EmailAdapter.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Email.SG\\EmailSettings.cs"
+    },
+    {
+      "key": "AB2E4228-89FC-0AB6-D488-753E8DD3958B.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\2"
+    },
+    {
+      "key": "AB2E4228-89FC-0AB6-D488-753E8DD3958B.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\2\\Issues.json"
+    },
+    {
+      "key": "AB2E4228-89FC-0AB6-D488-753E8DD3958B.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\2\\Telemetry.json"
+    },
+    {
+      "key": "3C030A9A-D1C1-CB18-4ACE-83DEEF191C75.sonar.projectKey",
+      "value": "WebApiNet10-Laboratorio:3C030A9A-D1C1-CB18-4ACE-83DEEF191C75"
+    },
+    {
+      "key": "3C030A9A-D1C1-CB18-4ACE-83DEEF191C75.sonar.projectName",
+      "value": "Ucr.If6201.PedidosCR.DA.Memoria"
+    },
+    {
+      "key": "3C030A9A-D1C1-CB18-4ACE-83DEEF191C75.sonar.projectBaseDir",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.DA.Memoria"
+    },
+    {
+      "key": "3C030A9A-D1C1-CB18-4ACE-83DEEF191C75.sonar.working.directory",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\.sonar\\mod3"
+    },
+    {
+      "key": "3C030A9A-D1C1-CB18-4ACE-83DEEF191C75.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "3C030A9A-D1C1-CB18-4ACE-83DEEF191C75.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "3C030A9A-D1C1-CB18-4ACE-83DEEF191C75.sonar.sources",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.DA.Memoria\\obj\\project.assets.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.DA.Memoria\\obj\\Ucr.If6201.PedidosCR.DA.Memoria.csproj.nuget.dgspec.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.DA.Memoria\\bin\\Debug\\net10.0\\Ucr.If6201.PedidosCR.DA.Memoria.deps.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.DA.Memoria\\obj\\Debug\\net10.0\\Ucr.If6201.PedidosCR.DA.Memoria.sourcelink.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.DA.Memoria\\PedidoRepositoryMemoria.cs"
+    },
+    {
+      "key": "3C030A9A-D1C1-CB18-4ACE-83DEEF191C75.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\3"
+    },
+    {
+      "key": "3C030A9A-D1C1-CB18-4ACE-83DEEF191C75.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\3\\Issues.json"
+    },
+    {
+      "key": "3C030A9A-D1C1-CB18-4ACE-83DEEF191C75.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\3\\Telemetry.json"
+    },
+    {
+      "key": "690408A0-C192-2EC8-D4C6-11D7ED21F51F.sonar.projectKey",
+      "value": "WebApiNet10-Laboratorio:690408A0-C192-2EC8-D4C6-11D7ED21F51F"
+    },
+    {
+      "key": "690408A0-C192-2EC8-D4C6-11D7ED21F51F.sonar.projectName",
+      "value": "Ucr.If6201.PedidosCR.DA.Sql"
+    },
+    {
+      "key": "690408A0-C192-2EC8-D4C6-11D7ED21F51F.sonar.projectBaseDir",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.DA.Sql"
+    },
+    {
+      "key": "690408A0-C192-2EC8-D4C6-11D7ED21F51F.sonar.working.directory",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\.sonar\\mod4"
+    },
+    {
+      "key": "690408A0-C192-2EC8-D4C6-11D7ED21F51F.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "690408A0-C192-2EC8-D4C6-11D7ED21F51F.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "690408A0-C192-2EC8-D4C6-11D7ED21F51F.sonar.sources",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.DA.Sql\\obj\\project.assets.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.DA.Sql\\obj\\Ucr.If6201.PedidosCR.DA.Sql.csproj.nuget.dgspec.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.DA.Sql\\bin\\Debug\\net10.0\\Ucr.If6201.PedidosCR.DA.Sql.deps.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.DA.Sql\\obj\\Debug\\net10.0\\Ucr.If6201.PedidosCR.DA.Sql.sourcelink.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.DA.Sql\\PedidoRepositySQL.cs"
+    },
+    {
+      "key": "690408A0-C192-2EC8-D4C6-11D7ED21F51F.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\4"
+    },
+    {
+      "key": "690408A0-C192-2EC8-D4C6-11D7ED21F51F.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\4\\Issues.json"
+    },
+    {
+      "key": "690408A0-C192-2EC8-D4C6-11D7ED21F51F.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\4\\Telemetry.json"
+    },
+    {
+      "key": "E2F25DF1-9884-5A93-4CDD-1538A7404F2C.sonar.projectKey",
+      "value": "WebApiNet10-Laboratorio:E2F25DF1-9884-5A93-4CDD-1538A7404F2C"
+    },
+    {
+      "key": "E2F25DF1-9884-5A93-4CDD-1538A7404F2C.sonar.projectName",
+      "value": "Ucr.If6201.PedidosCR.BW"
+    },
+    {
+      "key": "E2F25DF1-9884-5A93-4CDD-1538A7404F2C.sonar.projectBaseDir",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.BW"
+    },
+    {
+      "key": "E2F25DF1-9884-5A93-4CDD-1538A7404F2C.sonar.working.directory",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\.sonar\\mod5"
+    },
+    {
+      "key": "E2F25DF1-9884-5A93-4CDD-1538A7404F2C.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "E2F25DF1-9884-5A93-4CDD-1538A7404F2C.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "E2F25DF1-9884-5A93-4CDD-1538A7404F2C.sonar.sources",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.BW\\obj\\project.assets.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.BW\\obj\\Ucr.If6201.PedidosCR.BW.csproj.nuget.dgspec.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.BW\\bin\\Debug\\net10.0\\Ucr.If6201.PedidosCR.BW.deps.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.BW\\obj\\Debug\\net10.0\\Ucr.If6201.PedidosCR.BW.sourcelink.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.BW\\UseCase\\CancelarPedidoUseCase.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.BW\\UseCase\\ConsultarPedidoUseCase.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.BW\\UseCase\\CrearPedidoUseCase.cs"
+    },
+    {
+      "key": "E2F25DF1-9884-5A93-4CDD-1538A7404F2C.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\5"
+    },
+    {
+      "key": "E2F25DF1-9884-5A93-4CDD-1538A7404F2C.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\5\\Issues.json"
+    },
+    {
+      "key": "E2F25DF1-9884-5A93-4CDD-1538A7404F2C.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\5\\Telemetry.json"
+    },
+    {
+      "key": "94D2DC85-F0F7-CF3D-E95A-94A056FEC3E3.sonar.projectKey",
+      "value": "WebApiNet10-Laboratorio:94D2DC85-F0F7-CF3D-E95A-94A056FEC3E3"
+    },
+    {
+      "key": "94D2DC85-F0F7-CF3D-E95A-94A056FEC3E3.sonar.projectName",
+      "value": "Ucr.If6201.PedidosCR.Consola"
+    },
+    {
+      "key": "94D2DC85-F0F7-CF3D-E95A-94A056FEC3E3.sonar.projectBaseDir",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Consola"
+    },
+    {
+      "key": "94D2DC85-F0F7-CF3D-E95A-94A056FEC3E3.sonar.working.directory",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\.sonar\\mod6"
+    },
+    {
+      "key": "94D2DC85-F0F7-CF3D-E95A-94A056FEC3E3.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "94D2DC85-F0F7-CF3D-E95A-94A056FEC3E3.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "94D2DC85-F0F7-CF3D-E95A-94A056FEC3E3.sonar.sources",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Consola\\obj\\project.assets.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Consola\\obj\\Ucr.If6201.PedidosCR.Consola.csproj.nuget.dgspec.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Consola\\bin\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Consola.deps.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Consola\\bin\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Consola.runtimeconfig.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Consola\\obj\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Consola.sourcelink.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Consola\\App\\AppMenu.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Consola\\App\\PedidosServices.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Consola\\Program.cs"
+    },
+    {
+      "key": "94D2DC85-F0F7-CF3D-E95A-94A056FEC3E3.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\6"
+    },
+    {
+      "key": "94D2DC85-F0F7-CF3D-E95A-94A056FEC3E3.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\6\\Issues.json"
+    },
+    {
+      "key": "94D2DC85-F0F7-CF3D-E95A-94A056FEC3E3.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\6\\Telemetry.json"
+    },
+    {
+      "key": "C028614D-66E4-F897-8C6C-911A3F0E5384.sonar.projectKey",
+      "value": "WebApiNet10-Laboratorio:C028614D-66E4-F897-8C6C-911A3F0E5384"
+    },
+    {
+      "key": "C028614D-66E4-F897-8C6C-911A3F0E5384.sonar.projectName",
+      "value": "Ucr.If6201.PedidosCR.Api"
+    },
+    {
+      "key": "C028614D-66E4-F897-8C6C-911A3F0E5384.sonar.projectBaseDir",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api"
+    },
+    {
+      "key": "C028614D-66E4-F897-8C6C-911A3F0E5384.sonar.working.directory",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\.sonar\\mod7"
+    },
+    {
+      "key": "C028614D-66E4-F897-8C6C-911A3F0E5384.sonar.sourceEncoding",
+      "value": "utf-8"
+    },
+    {
+      "key": "C028614D-66E4-F897-8C6C-911A3F0E5384.sonar.tests",
+      "value": ""
+    },
+    {
+      "key": "C028614D-66E4-F897-8C6C-911A3F0E5384.sonar.sources",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\appsettings.Development.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\appsettings.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\obj\\project.assets.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\obj\\Ucr.If6201.PedidosCR.Api.csproj.nuget.dgspec.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\Properties\\launchSettings.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\bin\\Debug\\net10.0\\appsettings.Development.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\bin\\Debug\\net10.0\\appsettings.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\bin\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Api.deps.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\bin\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Api.runtimeconfig.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\bin\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Api.staticwebassets.endpoints.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\obj\\Debug\\net10.0\\rjsmcshtml.dswa.cache.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\obj\\Debug\\net10.0\\rjsmrazor.dswa.cache.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\obj\\Debug\\net10.0\\rpswa.dswa.cache.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\obj\\Debug\\net10.0\\staticwebassets.build.endpoints.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\obj\\Debug\\net10.0\\staticwebassets.build.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\obj\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Api.sourcelink.json,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\Controllers\\PedidosController.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\Program.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\obj\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Api.GlobalUsings.g.cs,\"C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\obj\\Debug\\net10.0\\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs\",C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\obj\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Api.AssemblyInfo.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\obj\\Debug\\net10.0\\Ucr.If6201.PedidosCR.Api.MvcApplicationPartsAssemblyInfo.cs,C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\Ucr.If6201.PedidosCR.Api\\Ucr.If6201.PedidosCR.Api.http"
+    },
+    {
+      "key": "C028614D-66E4-F897-8C6C-911A3F0E5384.sonar.cs.analyzer.projectOutPaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\7"
+    },
+    {
+      "key": "C028614D-66E4-F897-8C6C-911A3F0E5384.sonar.cs.roslyn.reportFilePaths",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\7\\Issues.json"
+    },
+    {
+      "key": "C028614D-66E4-F897-8C6C-911A3F0E5384.sonar.cs.scanner.telemetry",
+      "value": "C:\\Users\\crist\\Escritorio\\TareaInfo\\If6201_PedidosCR_Tarea\\.sonarqube\\out\\7\\Telemetry.json"
+    },
+    {
+      "key": "sonar.token",
+      "value": "***"
+    },
+    {
+      "key": "sonar.host.url",
+      "value": "http://localhost:9000"
+    }
+  ]
+}

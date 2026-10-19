@@ -1,0 +1,1 @@
+ŠR}C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Email.SG\Ucr.If6201.PedidosCR.Email.SG.csprojòCSharp14

@@ -1,0 +1,10 @@
+﻿C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Api\Controllers\PedidosController.cs
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Api\Program.cs
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Api\obj\Debug\net10.0\Ucr.If6201.PedidosCR.Api.GlobalUsings.g.cs
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Api\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.cs
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Api\obj\Debug\net10.0\Ucr.If6201.PedidosCR.Api.AssemblyInfo.cs
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Api\obj\Debug\net10.0\Ucr.If6201.PedidosCR.Api.MvcApplicationPartsAssemblyInfo.cs
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Api\appsettings.Development.json
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Api\appsettings.json
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Api\Ucr.If6201.PedidosCR.Api.http
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Api\Properties\launchSettings.json

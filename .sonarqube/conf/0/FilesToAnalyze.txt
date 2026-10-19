@@ -1,0 +1,4 @@
+﻿C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Dominio\Entities\DetallePedido.cs
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Dominio\Entities\Pedido.cs
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Dominio\Enums\EstadoPedido.cs
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Dominio\Exceptions\ReglaNegocioException.cs

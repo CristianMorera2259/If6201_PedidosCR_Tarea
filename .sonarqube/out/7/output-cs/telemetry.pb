@@ -1,0 +1,1 @@
+€RsC:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Api\Ucr.If6201.PedidosCR.Api.csprojòCSharp14

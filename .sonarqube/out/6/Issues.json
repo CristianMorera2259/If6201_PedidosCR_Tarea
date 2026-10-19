@@ -1,0 +1,196 @@
+{
+  "$schema": "http://json.schemastore.org/sarif-1.0.0",
+  "version": "1.0.0",
+  "runs": [
+    {
+      "tool": {
+        "name": "Compilador de Microsoft (R) Visual C#",
+        "version": "5.9.0.0",
+        "fileVersion": "5.9.0-1.26423.113 (e34a38d2ae1fc26406a317517196e55c68ff83ab)",
+        "semanticVersion": "5.9.0",
+        "language": "es-MX"
+      },
+      "results": [
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "La variable 'e' se ha declarado pero nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/crist/Escritorio/TareaInfo/If6201_PedidosCR_Tarea/Ucr.If6201.PedidosCR.Consola/App/AppMenu.cs",
+                "region": {
+                  "startLine": 220,
+                  "startColumn": 30,
+                  "endLine": 220,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "La variable 'numero' se ha declarado pero nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/crist/Escritorio/TareaInfo/If6201_PedidosCR_Tarea/Ucr.If6201.PedidosCR.Consola/App/AppMenu.cs",
+                "region": {
+                  "startLine": 215,
+                  "startColumn": 21,
+                  "endLine": 215,
+                  "endColumn": 27
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CS0168",
+          "level": "warning",
+          "message": "La variable 'e' se ha declarado pero nunca se usa",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/crist/Escritorio/TareaInfo/If6201_PedidosCR_Tarea/Ucr.If6201.PedidosCR.Consola/App/AppMenu.cs",
+                "region": {
+                  "startLine": 250,
+                  "startColumn": 30,
+                  "endLine": 250,
+                  "endColumn": 31
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 3
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"obtenerTexto\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/crist/Escritorio/TareaInfo/If6201_PedidosCR_Tarea/Ucr.If6201.PedidosCR.Consola/App/AppMenu.cs",
+                "region": {
+                  "startLine": 189,
+                  "startColumn": 20,
+                  "endLine": 189,
+                  "endColumn": 32
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"obtenerNumero\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/crist/Escritorio/TareaInfo/If6201_PedidosCR_Tarea/Ucr.If6201.PedidosCR.Consola/App/AppMenu.cs",
+                "region": {
+                  "startLine": 201,
+                  "startColumn": 21,
+                  "endLine": 201,
+                  "endColumn": 34
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"pedidoDetallesToString\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/crist/Escritorio/TareaInfo/If6201_PedidosCR_Tarea/Ucr.If6201.PedidosCR.Consola/App/AppMenu.cs",
+                "region": {
+                  "startLine": 275,
+                  "startColumn": 20,
+                  "endLine": 275,
+                  "endColumn": 42
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        },
+        {
+          "ruleId": "CA1822",
+          "level": "note",
+          "message": "El miembro \"obtenerOpcion\" no tiene acceso a los datos de la instancia y se puede marcar como static.",
+          "locations": [
+            {
+              "resultFile": {
+                "uri": "file:///C:/Users/crist/Escritorio/TareaInfo/If6201_PedidosCR_Tarea/Ucr.If6201.PedidosCR.Consola/App/AppMenu.cs",
+                "region": {
+                  "startLine": 229,
+                  "startColumn": 17,
+                  "endLine": 229,
+                  "endColumn": 30
+                }
+              }
+            }
+          ],
+          "properties": {
+            "warningLevel": 1
+          }
+        }
+      ],
+      "rules": {
+        "CA1822": {
+          "id": "CA1822",
+          "shortDescription": "Marcar miembros como static",
+          "fullDescription": "Los miembros que no tienen acceso a datos de instancia o que llaman a métodos de instancia se pueden marcar como static. Después de marcar los métodos como static, el compilador emitirá los sitios de llamada no virtuales para estos miembros. Esto puede proporcionar una mejora apreciable del rendimiento del código sensible al rendimiento.",
+          "defaultLevel": "note",
+          "helpUri": "https://learn.microsoft.com/dotnet/fundamentals/code-analysis/quality-rules/ca1822",
+          "properties": {
+            "category": "Performance",
+            "isEnabledByDefault": true,
+            "tags": [
+              "PortedFromFxCop",
+              "Telemetry",
+              "EnabledRuleInAggressiveMode"
+            ]
+          }
+        },
+        "CS0168": {
+          "id": "CS0168",
+          "shortDescription": "La variable está declarada pero nunca se usa",
+          "defaultLevel": "warning",
+          "helpUri": "https://msdn.microsoft.com/query/roslyn.query?appId=roslyn&k=k(CS0168)",
+          "properties": {
+            "category": "Compiler",
+            "isEnabledByDefault": true,
+            "tags": [
+              "Compiler",
+              "Telemetry"
+            ]
+          }
+        }
+      }
+    }
+  ]
+}

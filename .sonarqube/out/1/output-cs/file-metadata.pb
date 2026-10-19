@@ -1,0 +1,13 @@
+Æ
+¢C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Abstracciones\obj\Debug\net10.0\Ucr.If6201.PedidosCR.Abstracciones.AssemblyInfo.csutf-8´
+üC:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Abstracciones\obj\Debug\net10.0\.NETCoreApp,Version=v10.0.AssemblyAttributes.csutf-8à
+C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Abstracciones\Ports\output\IPedidoRepository.csutf-8∞
+§C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Abstracciones\obj\Debug\net10.0\Ucr.If6201.PedidosCR.Abstracciones.GlobalUsings.g.csutf-8É
+zC:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Abstracciones\Ports\output\INotificador.csutf-8Ç
+yC:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Abstracciones\Ports\input\ICrearPedido.csutf-8Ü
+}C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Abstracciones\Ports\input\IConsultarPedido.csutf-8Ö
+|C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Abstracciones\Ports\input\ICancelarPedido.csutf-8}
+tC:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Abstracciones\dtos\PedidoResponse.csutf-8Ñ
+{C:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Abstracciones\dtos\DetallePedidoResponse.csutf-8Å
+xC:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Abstracciones\dtos\CrearPedidoRequest.csutf-8É
+zC:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.Abstracciones\dtos\DetallePedidoRequest.csutf-8

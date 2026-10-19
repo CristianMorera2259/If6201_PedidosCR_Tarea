@@ -1,0 +1,2 @@
+¤
+uC:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.DA.Memoria\PedidoRepositoryMemoria.cs 8jr	‚

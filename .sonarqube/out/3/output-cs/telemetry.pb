@@ -1,0 +1,1 @@
+èRÅC:\Users\crist\Escritorio\TareaInfo\If6201_PedidosCR_Tarea\Ucr.If6201.PedidosCR.DA.Memoria\Ucr.If6201.PedidosCR.DA.Memoria.csprojÚCSharp14

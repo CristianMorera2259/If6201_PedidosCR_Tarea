@@ -1,0 +1,6 @@
+projectKey=WebApiNet10-Laboratorio
+serverUrl=http://localhost:9000
+serverVersion=26.10.0.133078
+dashboardUrl=http://localhost:9000/dashboard?id=WebApiNet10-Laboratorio
+ceTaskId=abcb0e83-37ba-43b9-8ca6-40c078af303e
+ceTaskUrl=http://localhost:9000/api/ce/task?id=abcb0e83-37ba-43b9-8ca6-40c078af303e
